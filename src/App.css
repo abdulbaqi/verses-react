@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+  color: white;
+  min-height: 100vh;
+  align-items: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+}
+
+h1{
+	font-family: 'Roboto';
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 12px;
+  }
+}
